@@ -16,7 +16,7 @@ static Scanner scanner;
         
         double left = scanner.nextDouble();  //taking 1st input from user
         String op = scanner.next();          // taking operator from user
-        if (op.equals("e"))
+        if (op.equals("e"))                 // if operator becomes e automatically program will be break
         {
         break;
             }
@@ -32,7 +32,7 @@ static Scanner scanner;
         
         
         {
-            case  '+':                  //performing operations
+        case  '+':                  //performing operations
             return left + right;
         case  '-':
             return left - right;
