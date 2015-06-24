@@ -24,9 +24,15 @@ static Scanner scanner;
         System.out.println(compute(left, op, right));
     }
     }
-    private static double compute(double left, String op, double right) {
-        switch (op.charAt(0)) {
-            case  '+':
+    private static double compute(double left, String op, double right)
+    
+    {
+        
+        switch (op.charAt(0)) 
+        
+        
+        {
+            case  '+':                  //performing operation
             return left + right;
         case  '-':
             return left - right;
