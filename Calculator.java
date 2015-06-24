@@ -9,18 +9,18 @@ static Scanner scanner;
         while(true)
             
         { 
-        System.out.println("Please enter your calculation ");
+        System.out.println("Please enter your calculation "); 
                 
-        scanner = new Scanner(System.in);
+        scanner = new Scanner(System.in);  
 
         
-        double left = scanner.nextDouble();
-        String op = scanner.next();
+        double left = scanner.nextDouble();  //taking 1st input from user
+        String op = scanner.next();          // taking operator from user
         if (op.equals("e"))
         {
         break;
             }
-        double right = scanner.nextDouble();
+        double right = scanner.nextDouble(); //taking second digit from user
         System.out.println(compute(left, op, right));
     }
     }
