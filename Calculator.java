@@ -9,24 +9,30 @@ static Scanner scanner;
         while(true)
             
         { 
-        System.out.println("Please enter your calculation ");
+        System.out.println("Please enter your calculation "); 
                 
-        scanner = new Scanner(System.in);
+        scanner = new Scanner(System.in);  
 
         
-        double left = scanner.nextDouble();
-        String op = scanner.next();
-        if (op.equals("e"))
+        double left = scanner.nextDouble();  //taking 1st input from user
+        String op = scanner.next();          // taking operator from user
+        if (op.equals("e"))                 // if operator becomes e automatically program will be break
         {
         break;
             }
-        double right = scanner.nextDouble();
+        double right = scanner.nextDouble(); //taking second digit from user
         System.out.println(compute(left, op, right));
     }
     }
-    private static double compute(double left, String op, double right) {
-        switch (op.charAt(0)) {
-            case  '+':
+    private static double compute(double left, String op, double right)
+    
+    {
+        
+        switch (op.charAt(0)) 
+        
+        
+        {
+        case  '+':                  //performing operations
             return left + right;
         case  '-':
             return left - right;
