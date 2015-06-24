@@ -32,7 +32,7 @@ static Scanner scanner;
         
         
         {
-            case  '+':                  //performing operation
+            case  '+':                  //performing operations
             return left + right;
         case  '-':
             return left - right;
