@@ -23,7 +23,7 @@ static Scanner scanner;
             
         if(left=='0'){
             
-            System.out.println("Bye");
+            System.out.println("Bye");           //if left digit=0 , it shows bye message
             
         }    
         double right = scanner.nextDouble(); //taking second digit from user
