@@ -20,6 +20,12 @@ static Scanner scanner;
         {
         break;
             }
+            
+        if(left=='0'){
+            
+            System.out.println("Bye");
+            
+        }    
         double right = scanner.nextDouble(); //taking second digit from user
         System.out.println(compute(left, op, right));
     }
