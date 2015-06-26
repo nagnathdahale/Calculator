@@ -19,7 +19,8 @@ static Scanner scanner;
         if (op.equals("e"))                 // if operator becomes e automatically program will be break
         {
         break;
-            }
+          
+        }
             
         if(left=='0'){
             
@@ -28,7 +29,11 @@ static Scanner scanner;
         }    
         double right = scanner.nextDouble(); //taking second digit from user
         System.out.println(compute(left, op, right));
-    }
+   
+   
+       }
+    
+        
     }
     private static double compute(double left, String op, double right)
     
